@@ -9,7 +9,7 @@ import logging
 
 logger = logging.getLogger('Tiling')
 logger.setLevel(logging.DEBUG)
-
+np.random.seed(1234)
 
 class QPUTile(object):
 
